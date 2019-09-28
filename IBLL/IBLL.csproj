@@ -40,7 +40,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="IBLL.cs" />
-    <Compile Include="IStudentBLL.cs" />
+    <Compile Include="ICompensationBLL.cs" />
+    <Compile Include="ICompensation_issueBLL.cs" />
+    <Compile Include="ISJKBBLL.cs" />
+    <Compile Include="ISJKLBLL.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

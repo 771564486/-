@@ -1,14 +1,13 @@
-﻿using System;
+﻿using Model;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using EF;
-using Model;
+
 namespace IBLL
 {
-    public interface IStudentBLL:IBLL<StudentModel>
+    public interface ICompensation_issueBLL:IBLL<Compensation_issueModel>
     {
-        
     }
 }

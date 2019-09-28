@@ -49,8 +49,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BaseDao.cs" />
-    <Compile Include="StudentDAO.cs" />
+    <Compile Include="CompensationDAO.cs" />
+    <Compile Include="Compensation_issueDAO.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SJKBDAO.cs" />
+    <Compile Include="SJKLDAO.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\EF\EF.csproj">

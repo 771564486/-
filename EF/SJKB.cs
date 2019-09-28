@@ -3,11 +3,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Model;
-using EF;
-namespace IDAO
+
+namespace EF
 {
-    public interface IStudentDAO<T>:IDAO<T> where T:class
+    public class SJKB
     {
+        public int SJKBid { get; set; }
+        public string SJKBname{get; set;}
     }
 }

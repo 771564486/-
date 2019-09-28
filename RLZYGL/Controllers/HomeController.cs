@@ -14,7 +14,11 @@ namespace RLZYGL.Controllers
         IStudentBLL stuBLL = IocCreate.CreateBLL<IStudentBLL>("containerTwo", "StudentBLL");
         public ActionResult Index()
         {
-           
+            StudentModel stu = new StudentModel()
+            {
+                StuName="张三"
+            };
+            stuBLL.Insert(stu);
             return View(stuBLL.SelectAll());
         }
 

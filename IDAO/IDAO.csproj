@@ -39,8 +39,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ICompensationDAO.cs" />
+    <Compile Include="ICompensation_issueDAO.cs" />
     <Compile Include="IDAO.cs" />
-    <Compile Include="IStudentDAO.cs" />
+    <Compile Include="ISJKBDAO.cs" />
+    <Compile Include="ISJKLDAO.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

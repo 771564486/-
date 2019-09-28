@@ -13,7 +13,5 @@ namespace IBLL
          int Update(T t);
          int Delete(T t);
          List<T> SelectAll();
-         List<T> SelectOne(Expression<Func<T, bool>> where);
-         List<T> SelectFenye<K>(Expression<Func<T, K>> order, Expression<Func<T, bool>> where, int PageIndex, int PageSize, out int rows);
     }
 }
